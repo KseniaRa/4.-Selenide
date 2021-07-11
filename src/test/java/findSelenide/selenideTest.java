@@ -20,9 +20,8 @@ public class selenideTest {
         $(byText("Wiki")).click();
         // Перейти в раздел SoftAssertions
         $(byText("Soft assertions")).click();
-        // Проверить, что на странице есть код для JUNIT5
+        // Проверить, что на странице есть код для тестов JUNIT5
         $("#wiki-body").shouldHave(text("Using JUnit5 extend test class"));
-
 
     }
 }
