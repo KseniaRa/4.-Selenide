@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideTest {
     @Test
-    void  SoftAssertionsTest(){
+    void  softAssertionsTest(){
         // открыть страницу
         open("https://github.com/selenide/selenide");
         // Перейти в wiki
