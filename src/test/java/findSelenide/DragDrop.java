@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class DragDrop {
 
     @Test
-    void DragAndDrop(){
+    void dragAndDrop(){
         // открыть страницу
         open("https://the-internet.herokuapp.com/drag_and_drop");
         // поменять элменты местами
