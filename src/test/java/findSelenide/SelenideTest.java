@@ -12,9 +12,9 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideTest {
     @Test
     void  softAssertionsTest(){
-        // открыть страницу
+        // открыть страницу Selenide
         open("https://github.com/selenide/selenide");
-        // Перейти в wiki
+        // Перейти в раздел wiki
         $(byText("Wiki")).click();
         // Перейти в раздел SoftAssertions
         $(".js-wiki-more-pages-link").click();
