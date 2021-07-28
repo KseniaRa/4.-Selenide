@@ -49,16 +49,8 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-© 2021 GitHub, Inc.
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+### Gradle ###
+/gradle
+gradlew
+gradlew.bat
